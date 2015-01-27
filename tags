@@ -1,0 +1,463 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AC_CODEC_CMD	include/s3c6410_regs.h	111;"	d
+AC_CODEC_STAT	include/s3c6410_regs.h	112;"	d
+AC_GLBCTRL	include/s3c6410_regs.h	109;"	d
+AC_GLBSTAT	include/s3c6410_regs.h	110;"	d
+AC_MICADDR	include/s3c6410_regs.h	114;"	d
+AC_MICDATA	include/s3c6410_regs.h	116;"	d
+AC_PCMADDR	include/s3c6410_regs.h	113;"	d
+AC_PCMDATA	include/s3c6410_regs.h	115;"	d
+ADCCLRINT	include/s3c6410_regs.h	93;"	d
+ADCCLRINTPNDNUP	include/s3c6410_regs.h	95;"	d
+ADCCON	include/s3c6410_regs.h	87;"	d
+ADCDAT0	include/s3c6410_regs.h	90;"	d
+ADCDAT1	include/s3c6410_regs.h	91;"	d
+ADCDLY	include/s3c6410_regs.h	89;"	d
+ADCTSC	include/s3c6410_regs.h	88;"	d
+ADCUPDN	include/s3c6410_regs.h	92;"	d
+ALIGN	lib/div64.S	/^#define ALIGN		.align 4,0x90	$/;"	d
+ALIGN	lib/lib1funcs.S	/^#define ALIGN		.align 4,0x90$/;"	d
+APLL_CON_VAL	clock.S	/^#define		APLL_CON_VAL	((1<<31) | (266 << 16) | (3 << 8) | (1))$/;"	d
+AR	Makefile	/^AR=arm-linux-ar$/;"	m
+ARM_RATIO	clock.S	/^#define ARM_RATIO      0	\/* ARMCLK = DOUTAPLL \/ (ARM_RATIO + 1)    *\/$/;"	d
+BITS_PER_UNIT	include/gcclib.h	4;"	d
+BL2_BASE	movi.c	18;"	d	file:
+CC	Makefile	/^CC=arm-linux-gcc$/;"	m
+CFG_ENV_SIZE	movi.c	16;"	d	file:
+CFLAGS	Makefile	/^CFLAGS     := -Wall -Os -fno-builtin-printf$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS   := -nostdinc -I$(INCLUDEDIR)$/;"	m
+CPUID_CACHETYPE	include/system.h	46;"	d
+CPUID_ID	include/system.h	45;"	d
+CPUID_TCM	include/system.h	47;"	d
+CPUID_TLBTYPE	include/system.h	48;"	d
+CPU_ARCH_ARMv3	include/system.h	9;"	d
+CPU_ARCH_ARMv4	include/system.h	10;"	d
+CPU_ARCH_ARMv4T	include/system.h	11;"	d
+CPU_ARCH_ARMv5	include/system.h	12;"	d
+CPU_ARCH_ARMv5T	include/system.h	13;"	d
+CPU_ARCH_ARMv5TE	include/system.h	14;"	d
+CPU_ARCH_ARMv5TEJ	include/system.h	15;"	d
+CPU_ARCH_ARMv6	include/system.h	16;"	d
+CPU_ARCH_UNKNOWN	include/system.h	8;"	d
+CR_A	include/system.h	22;"	d
+CR_B	include/system.h	28;"	d
+CR_C	include/system.h	23;"	d
+CR_D	include/system.h	26;"	d
+CR_DT	include/system.h	37;"	d
+CR_F	include/system.h	31;"	d
+CR_FI	include/system.h	40;"	d
+CR_I	include/system.h	33;"	d
+CR_IT	include/system.h	38;"	d
+CR_L	include/system.h	27;"	d
+CR_L4	include/system.h	36;"	d
+CR_M	include/system.h	21;"	d
+CR_P	include/system.h	25;"	d
+CR_R	include/system.h	30;"	d
+CR_RR	include/system.h	35;"	d
+CR_S	include/system.h	29;"	d
+CR_ST	include/system.h	39;"	d
+CR_U	include/system.h	41;"	d
+CR_V	include/system.h	34;"	d
+CR_VE	include/system.h	43;"	d
+CR_W	include/system.h	24;"	d
+CR_XP	include/system.h	42;"	d
+CR_Z	include/system.h	32;"	d
+CopyMovitoMem	movi.c	26;"	d	file:
+DIstruct	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	s
+DIstruct	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	s
+DItype	include/gcclib.h	/^typedef          int DItype     __attribute__ ((mode (DI)));$/;"	t
+DIunion	include/gcclib.h	/^} DIunion;$/;"	t	typeref:union:__anon1
+DMAC1C0Configuration	include/s3c6410_regs.h	130;"	d
+DMAC1C0ConfigurationExp	include/s3c6410_regs.h	131;"	d
+DMAC1C0Control0	include/s3c6410_regs.h	128;"	d
+DMAC1C0Control1	include/s3c6410_regs.h	129;"	d
+DMAC1C0DestAddr	include/s3c6410_regs.h	126;"	d
+DMAC1C0LLI	include/s3c6410_regs.h	127;"	d
+DMAC1C0SrcAddr	include/s3c6410_regs.h	125;"	d
+DMAC1Configuration	include/s3c6410_regs.h	123;"	d
+DMAC1Sync	include/s3c6410_regs.h	124;"	d
+EINT0CON0	include/s3c6410_regs.h	8;"	d
+EINT0MASK	include/s3c6410_regs.h	9;"	d
+EINT0PEND	include/s3c6410_regs.h	11;"	d
+ENTRY	lib/div64.S	/^#define ENTRY(name) \\$/;"	d
+ENTRY	lib/lib1funcs.S	/^#define ENTRY(name) \\$/;"	d
+GPACON	include/s3c6410_regs.h	85;"	d
+GPACON	uart.c	13;"	d	file:
+GPDCON	include/s3c6410_regs.h	1;"	d
+GPDDAT	include/s3c6410_regs.h	2;"	d
+GPECON	include/s3c6410_regs.h	42;"	d
+GPEDAT	include/s3c6410_regs.h	43;"	d
+GPFCON	include/s3c6410_regs.h	44;"	d
+GPFCON	include/s3c6410_regs.h	97;"	d
+GPFDAT	include/s3c6410_regs.h	45;"	d
+GPFDAT	include/s3c6410_regs.h	98;"	d
+GPICON	include/s3c6410_regs.h	46;"	d
+GPJCON	include/s3c6410_regs.h	47;"	d
+GPNCON	include/s3c6410_regs.h	5;"	d
+GPNDAT	include/s3c6410_regs.h	6;"	d
+HCLK	sdram.c	30;"	d	file:
+HCLKX2_RATIO	clock.S	/^#define HCLKX2_RATIO   1	\/* HCLKX2 = HCLKX2IN \/ (HCLKX2_RATIO + 1) *\/$/;"	d
+HCLK_RATIO	clock.S	/^#define HCLK_RATIO     1	\/* HCLK = HCLKX2 \/ (HCLK_RATIO + 1)       *\/$/;"	d
+HSMMC_CHANNEL	movi.c	23;"	d	file:
+INBUFSIZE	lib/printf.c	9;"	d	file:
+INCLUDEDIR	Makefile	/^INCLUDEDIR := $(shell pwd)\/include$/;"	m
+INT_MAX	include/kernel.h	1;"	d
+INT_MIN	include/kernel.h	2;"	d
+LARGE	lib/vsprintf.c	146;"	d	file:
+LD	Makefile	/^LD=arm-linux-ld$/;"	m
+LEFT	lib/vsprintf.c	144;"	d	file:
+LONG_MAX	include/kernel.h	4;"	d
+LONG_MIN	include/kernel.h	5;"	d
+Ldiv0	lib/lib1funcs.S	/^Ldiv0:$/;"	l
+MEMCCMD	sdram.c	4;"	d	file:
+MEM_SYS_CFG	sdram.c	7;"	d	file:
+MIFPCON	include/s3c6410_regs.h	50;"	d
+MOVI_BL1_BLKCNT	movi.c	30;"	d	file:
+MOVI_BL2_BLKCNT	movi.c	32;"	d	file:
+MOVI_BL2_POS	movi.c	33;"	d	file:
+MOVI_BLKSIZE	movi.c	13;"	d	file:
+MOVI_ENV_BLKCNT	movi.c	31;"	d	file:
+MOVI_INIT_REQUIRED	movi.c	24;"	d	file:
+MOVI_LAST_BLKPOS	movi.c	29;"	d	file:
+MOVI_TOTAL_BLKCNT	movi.c	19;"	d	file:
+MPLL_CON_VAL	clock.S	/^#define		MPLL_CON_VAL	((1<<31) | (266 << 16) | (3 << 8) | (1))$/;"	d
+MPLL_RATIO	clock.S	/^#define MPLL_RATIO     0	\/* DOUTMPLL = MOUTMPLL \/ (MPLL_RATIO + 1)     *\/$/;"	d
+NATIVE_INT	lib/vsprintf.h	20;"	d
+NULL	include/types.h	6;"	d
+OBJCOPY	Makefile	/^OBJCOPY=arm-linux-objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP=arm-linux-objdump$/;"	m
+OTHERS	clock.S	/^#define OTHERS		0x7E00F900$/;"	d
+OUTBUFSIZE	lib/printf.c	8;"	d	file:
+P1CASLAT	sdram.c	6;"	d	file:
+P1DIRECTCMD	sdram.c	27;"	d	file:
+P1MEMCCMD	sdram.c	26;"	d	file:
+P1MEMCFG	sdram.c	8;"	d	file:
+P1MEMCFG2	sdram.c	22;"	d	file:
+P1MEMSTAT	sdram.c	25;"	d	file:
+P1REFRESH	sdram.c	5;"	d	file:
+P1T_DQSS	sdram.c	9;"	d	file:
+P1T_ESR	sdram.c	21;"	d	file:
+P1T_MRD	sdram.c	10;"	d	file:
+P1T_RAS	sdram.c	11;"	d	file:
+P1T_RC	sdram.c	12;"	d	file:
+P1T_RCD	sdram.c	13;"	d	file:
+P1T_RFC	sdram.c	14;"	d	file:
+P1T_RP	sdram.c	15;"	d	file:
+P1T_RRD	sdram.c	16;"	d	file:
+P1T_WR	sdram.c	17;"	d	file:
+P1T_WTR	sdram.c	18;"	d	file:
+P1T_XP	sdram.c	19;"	d	file:
+P1T_XSR	sdram.c	20;"	d	file:
+P1_chip_0_cfg	sdram.c	23;"	d	file:
+PART_SIZE_BL	movi.c	15;"	d	file:
+PCLK_RATIO	clock.S	/^#define PCLK_RATIO     3	\/* PCLK   = HCLKX2 \/ (PCLK_RATIO + 1)     *\/$/;"	d
+PLUS	lib/vsprintf.c	142;"	d	file:
+PRIORITY	include/s3c6410_regs.h	13;"	d
+Reserved	include/s3c6410_regs.h	94;"	d
+SDMAC1_BASE	include/s3c6410_regs.h	122;"	d
+SDMA_SEL	include/s3c6410_regs.h	120;"	d
+SD_Control	movi.c	9;"	d	file:
+SERVICE	include/s3c6410_regs.h	14;"	d
+SERVICEPEND	include/s3c6410_regs.h	15;"	d
+SIGN	lib/vsprintf.c	141;"	d	file:
+SI_TYPE_SIZE	include/gcclib.h	5;"	d
+SItype	include/gcclib.h	/^typedef          int SItype     __attribute__ ((mode (SI)));$/;"	t
+SPACE	lib/vsprintf.c	143;"	d	file:
+SPCON	include/s3c6410_regs.h	51;"	d
+SPECIAL	lib/vsprintf.c	145;"	d	file:
+SROM_BC1	include/s3c6410_regs.h	135;"	d
+SROM_BW	include/s3c6410_regs.h	134;"	d
+SS_SIZE	movi.c	11;"	d	file:
+TCFG0	include/s3c6410_regs.h	100;"	d
+TCFG1	include/s3c6410_regs.h	101;"	d
+TCMPB0	include/s3c6410_regs.h	103;"	d
+TCM_BASE	movi.c	10;"	d	file:
+TCNTB0	include/s3c6410_regs.h	102;"	d
+TCNTB2	include/s3c6410_regs.h	105;"	d
+TCON	include/s3c6410_regs.h	104;"	d
+TINT_CSTAT	include/s3c6410_regs.h	106;"	d
+UBRDIV0	include/s3c6410_regs.h	77;"	d
+UBRDIV0	uart.c	10;"	d	file:
+UCON0	include/s3c6410_regs.h	70;"	d
+UCON0	uart.c	3;"	d	file:
+UDBG_BADABORT	include/system.h	124;"	d
+UDBG_BUS	include/system.h	126;"	d
+UDBG_SEGV	include/system.h	125;"	d
+UDBG_SYSCALL	include/system.h	123;"	d
+UDBG_UNDEFINED	include/system.h	122;"	d
+UDIVSLOT0	include/s3c6410_regs.h	78;"	d
+UDIVSLOT0	uart.c	11;"	d	file:
+UDItype	include/gcclib.h	/^typedef unsigned int UDItype    __attribute__ ((mode (DI)));$/;"	t
+UFCON0	include/s3c6410_regs.h	71;"	d
+UFCON0	uart.c	4;"	d	file:
+UFSTAT0	include/s3c6410_regs.h	74;"	d
+UFSTAT0	uart.c	7;"	d	file:
+UINTM0	include/s3c6410_regs.h	82;"	d
+UINTP0	include/s3c6410_regs.h	79;"	d
+UINT_MAX	include/kernel.h	3;"	d
+ULCON0	include/s3c6410_regs.h	69;"	d
+ULCON0	uart.c	2;"	d	file:
+ULONG_MAX	include/kernel.h	6;"	d
+UMCON0	include/s3c6410_regs.h	72;"	d
+UMCON0	uart.c	5;"	d	file:
+UQItype	include/gcclib.h	/^typedef unsigned int UQItype    __attribute__ ((mode (QI)));$/;"	t
+URXH0	include/s3c6410_regs.h	76;"	d
+URXH0	uart.c	9;"	d	file:
+USItype	include/gcclib.h	/^typedef unsigned int USItype    __attribute__ ((mode (SI)));$/;"	t
+UTRSTAT0	include/s3c6410_regs.h	73;"	d
+UTRSTAT0	uart.c	6;"	d	file:
+UTXH0	include/s3c6410_regs.h	75;"	d
+UTXH0	uart.c	8;"	d	file:
+VIC0ADDRESS	include/s3c6410_regs.h	31;"	d
+VIC0FIQSTATUS	include/s3c6410_regs.h	19;"	d
+VIC0INTENABLE	include/s3c6410_regs.h	22;"	d
+VIC0INTENCLEAR	include/s3c6410_regs.h	23;"	d
+VIC0INTSELECT	include/s3c6410_regs.h	21;"	d
+VIC0IRQSTATUS	include/s3c6410_regs.h	18;"	d
+VIC0PRIORITYDAISY	include/s3c6410_regs.h	26;"	d
+VIC0PROTECTION	include/s3c6410_regs.h	24;"	d
+VIC0RAWINTR	include/s3c6410_regs.h	20;"	d
+VIC0SWPRIORITYMASK	include/s3c6410_regs.h	25;"	d
+VIC0VECTADDR0	include/s3c6410_regs.h	28;"	d
+VIC0VECTADDR1	include/s3c6410_regs.h	29;"	d
+VIC0VECTADDR25	include/s3c6410_regs.h	30;"	d
+VIC1ADDRESS	include/s3c6410_regs.h	39;"	d
+VIC1INTENABLE	include/s3c6410_regs.h	38;"	d
+VIC1IRQSTATUS	include/s3c6410_regs.h	33;"	d
+VIC1VECTADDR30	include/s3c6410_regs.h	36;"	d
+VIC1VECTADDR31	include/s3c6410_regs.h	37;"	d
+VIC1VECTADDR4	include/s3c6410_regs.h	34;"	d
+VIC1VECTADDR5	include/s3c6410_regs.h	35;"	d
+VIDCON0	include/s3c6410_regs.h	52;"	d
+VIDCON1	include/s3c6410_regs.h	53;"	d
+VIDOSD0A	include/s3c6410_regs.h	58;"	d
+VIDOSD0B	include/s3c6410_regs.h	59;"	d
+VIDOSD0C	include/s3c6410_regs.h	60;"	d
+VIDTCON0	include/s3c6410_regs.h	54;"	d
+VIDTCON1	include/s3c6410_regs.h	55;"	d
+VIDTCON2	include/s3c6410_regs.h	56;"	d
+VIDW00ADD0B0	include/s3c6410_regs.h	61;"	d
+VIDW00ADD1B0	include/s3c6410_regs.h	62;"	d
+VIDW00ADD2	include/s3c6410_regs.h	63;"	d
+WIN0_PALENTRY0	include/s3c6410_regs.h	66;"	d
+WINCON0	include/s3c6410_regs.h	57;"	d
+WPALCON	include/s3c6410_regs.h	65;"	d
+ZEROPAD	lib/vsprintf.c	140;"	d	file:
+_ADNBND	lib/vsprintf.h	22;"	d
+_AUPBND	lib/vsprintf.h	21;"	d
+_C	include/ctype.h	9;"	d
+_D	include/ctype.h	8;"	d
+_L	include/ctype.h	7;"	d
+_P	include/ctype.h	10;"	d
+_PRINTF_H	lib/printf.h	3;"	d
+_S	include/ctype.h	11;"	d
+_SIZE_T	include/types.h	10;"	d
+_SP	include/ctype.h	13;"	d
+_STDIO_H	include/stdio.h	3;"	d
+_TPYES_H	include/types.h	3;"	d
+_U	include/ctype.h	6;"	d
+_VALIST	include/stdio.h	8;"	d
+_VALIST	lib/vsprintf.h	13;"	d
+_X	include/ctype.h	12;"	d
+__ASM_ARM_DIV64	lib/div64.h	2;"	d
+__ASM_ARM_SYSTEM_H	include/system.h	2;"	d
+__COMMON_H	common.h	2;"	d
+__COMMON_H	include/common.h	2;"	d
+__LINUX_ARM_ARCH__	lib/div64.S	/^#define __LINUX_ARM_ARCH__  1$/;"	d
+__LINUX_ARM_ARCH__	lib/lib1funcs.S	/^#define __LINUX_ARM_ARCH__  1$/;"	d
+___strtok	lib/string.c	/^char * ___strtok;$/;"	v
+__asmeq	include/system.h	68;"	d
+__asmeq	lib/div64.h	30;"	d
+__ismask	include/ctype.h	17;"	d
+__muldi3	lib/muldi3.c	/^__muldi3 (DItype u, DItype v)$/;"	f
+__tolower	include/ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	include/ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+__umulsidi3	lib/muldi3.c	56;"	d	file:
+__xchg	include/system.h	/^static inline unsigned long __xchg(unsigned long x, volatile void *ptr, int size)$/;"	f
+__xh	lib/div64.h	23;"	d
+__xh	lib/div64.h	27;"	d
+__xl	lib/div64.h	24;"	d
+__xl	lib/div64.h	26;"	d
+_bnd	lib/vsprintf.h	28;"	d
+_ctype	lib/ctype.c	/^unsigned char _ctype[] = {$/;"	v
+_start	start.S	/^_start:$/;"	l
+bcopy	lib/string.c	/^void bcopy(const void *src, void *dest, size_t count)$/;"	f
+check_dmc1_ready	sdram_asm.S	/^check_dmc1_ready:$/;"	l
+clean_bss	start.S	/^clean_bss:$/;"	l
+clean_loop	start.S	/^clean_loop:$/;"	l
+clock_init	clock.S	/^clock_init:$/;"	l
+do_div	lib/div64.h	32;"	d
+eFUSE_SIZE	movi.c	12;"	d	file:
+finish_arch_switch	include/system.h	157;"	d
+finish_arch_switch	include/system.h	169;"	d
+g_pcInBuf	lib/printf.c	/^static unsigned char g_pcInBuf[INBUFSIZE];$/;"	v	file:
+g_pcOutBuf	lib/printf.c	/^static unsigned char g_pcOutBuf[OUTBUFSIZE];$/;"	v	file:
+get_bit	common.h	16;"	d
+get_bit	include/common.h	16;"	d
+get_cr	include/system.h	110;"	d
+get_val	common.h	18;"	d
+get_val	include/common.h	18;"	d
+getc	uart.c	/^char getc(void)$/;"	f
+halt	start.S	/^halt:$/;"	l
+high	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	m	struct:DIstruct
+high	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	m	struct:DIstruct
+init_uart	uart.c	/^void init_uart(void)$/;"	f
+irqs_disabled	include/system.h	303;"	d
+isalnum	include/ctype.h	19;"	d
+isalpha	include/ctype.h	20;"	d
+isascii	include/ctype.h	31;"	d
+iscntrl	include/ctype.h	21;"	d
+isdigit	include/ctype.h	22;"	d
+isgraph	include/ctype.h	23;"	d
+islower	include/ctype.h	24;"	d
+isprint	include/ctype.h	25;"	d
+ispunct	include/ctype.h	26;"	d
+isspace	include/ctype.h	27;"	d
+isupper	include/ctype.h	28;"	d
+isxdigit	include/ctype.h	29;"	d
+ll	include/gcclib.h	/^  DItype ll;$/;"	m	union:__anon1
+local_fiq_disable	include/system.h	201;"	d
+local_fiq_disable	include/system.h	269;"	d
+local_fiq_enable	include/system.h	200;"	d
+local_fiq_enable	include/system.h	254;"	d
+local_irq_disable	include/system.h	199;"	d
+local_irq_disable	include/system.h	239;"	d
+local_irq_enable	include/system.h	198;"	d
+local_irq_enable	include/system.h	224;"	d
+local_irq_restore	include/system.h	296;"	d
+local_irq_save	include/system.h	190;"	d
+local_irq_save	include/system.h	208;"	d
+local_save_flags	include/system.h	286;"	d
+loop1	clock.S	/^loop1:                          \/*Wait until CPU enter async mode*\/$/;"	l
+low	include/gcclib.h	/^  struct DIstruct {SItype high, low;};$/;"	m	struct:DIstruct
+low	include/gcclib.h	/^  struct DIstruct {SItype low, high;};$/;"	m	struct:DIstruct
+main	main.c	/^int main()$/;"	f
+mb	include/system.h	136;"	d
+mem_ctrl_asm_init	sdram_asm.S	/^mem_ctrl_asm_init:$/;"	l
+memchr	lib/string.c	/^void *memchr(const void *s, int c, size_t n)$/;"	f
+memcmp	lib/string.c	/^int memcmp(const void * cs,const void * ct,size_t count)$/;"	f
+memcpy	lib/string.c	/^void * memcpy(void * dest,const void *src,size_t count)$/;"	f
+memmove	lib/string.c	/^void * memmove(void * dest,const void *src,size_t count)$/;"	f
+memscan	lib/string.c	/^void * memscan(void * addr, int c, size_t size)$/;"	f
+memset	lib/string.c	/^void * memset(void * s,int c,size_t count)$/;"	f
+movi_bl2_copy	movi.c	/^void movi_bl2_copy(void)$/;"	f
+name	lib/div64.S	/^  name:$/;"	l
+name	lib/lib1funcs.S	/^  name:$/;"	l
+nop	include/system.h	142;"	d
+nstoclk	sdram.c	32;"	d	file:
+number	lib/vsprintf.c	/^static char * number(char * buf, char * end, unsigned long long num, int base, int size, int precision, int type)$/;"	f	file:
+objs	Makefile	/^objs := start.o main.o uart.o sdram_asm.o movi.o clock.o lib\/libc.a$/;"	m
+objs	lib/Makefile	/^objs := div64.o lib1funcs.o ctype.o muldi3.o printf.o string.o vsprintf.o$/;"	m
+on_ddr	start.S	/^on_ddr:$/;"	l
+or_val	common.h	21;"	d
+or_val	include/common.h	21;"	d
+prepare_arch_switch	include/system.h	151;"	d
+prepare_arch_switch	include/system.h	168;"	d
+printf	lib/printf.c	/^int printf(const char *fmt, ...)$/;"	f
+putc	uart.c	/^void putc(char c)$/;"	f
+read_barrier_depends	include/system.h	139;"	d
+read_cpuid	include/system.h	50;"	d
+read_val	common.h	19;"	d
+read_val	include/common.h	19;"	d
+rmb	include/system.h	137;"	d
+s	include/gcclib.h	/^  struct DIstruct s;$/;"	m	union:__anon1	typeref:struct:__anon1::DIstruct
+scanf	lib/printf.c	/^int scanf(const char * fmt, ...)$/;"	f
+scnprintf	lib/vsprintf.c	/^int scnprintf(char * buf, size_t size, const char *fmt, ...)$/;"	f
+sdram_init	sdram.c	/^int sdram_init( void )$/;"	f
+set_2bit	common.h	11;"	d
+set_2bit	include/common.h	11;"	d
+set_bit	common.h	9;"	d
+set_bit	include/common.h	9;"	d
+set_cr	include/system.h	105;"	d
+set_mb	include/system.h	140;"	d
+set_nbit	common.h	13;"	d
+set_nbit	include/common.h	13;"	d
+set_one	common.h	7;"	d
+set_one	include/common.h	7;"	d
+set_val	common.h	20;"	d
+set_val	include/common.h	20;"	d
+set_wmb	include/system.h	141;"	d
+set_zero	common.h	6;"	d
+set_zero	include/common.h	6;"	d
+simple_strtol	lib/vsprintf.c	/^long simple_strtol(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoll	lib/vsprintf.c	/^long long simple_strtoll(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoul	lib/vsprintf.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoull	lib/vsprintf.c	/^unsigned long long simple_strtoull(const char *cp,char **endp,unsigned int base)$/;"	f
+size_t	include/types.h	/^typedef unsigned int size_t;$/;"	t
+skip_atoi	lib/vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+smp_mb	include/system.h	313;"	d
+smp_mb	include/system.h	320;"	d
+smp_read_barrier_depends	include/system.h	316;"	d
+smp_read_barrier_depends	include/system.h	323;"	d
+smp_rmb	include/system.h	314;"	d
+smp_rmb	include/system.h	321;"	d
+smp_wmb	include/system.h	315;"	d
+smp_wmb	include/system.h	322;"	d
+snprintf	lib/vsprintf.c	/^int snprintf(char * buf, size_t size, const char *fmt, ...)$/;"	f
+sprintf	lib/vsprintf.c	/^int sprintf(char * buf, const char *fmt, ...)$/;"	f
+sscanf	lib/vsprintf.c	/^int sscanf(const char * buf, const char * fmt, ...)$/;"	f
+strcat	lib/string.c	/^char * strcat(char * dest, const char * src)$/;"	f
+strchr	lib/string.c	/^char * strchr(const char * s, int c)$/;"	f
+strcmp	lib/string.c	/^int strcmp(const char * cs,const char * ct)$/;"	f
+strcpy	lib/string.c	/^char * strcpy(char * dest,const char *src)$/;"	f
+strlen	lib/string.c	/^size_t strlen(const char * s)$/;"	f
+strncat	lib/string.c	/^char * strncat(char *dest, const char *src, size_t count)$/;"	f
+strncmp	lib/string.c	/^int strncmp(const char * cs,const char * ct,size_t count)$/;"	f
+strncpy	lib/string.c	/^char * strncpy(char * dest,const char *src,size_t count)$/;"	f
+strnicmp	lib/string.c	/^int strnicmp(const char *s1, const char *s2, size_t len)$/;"	f
+strnlen	lib/string.c	/^size_t strnlen(const char * s, size_t count)$/;"	f
+strpbrk	lib/string.c	/^char * strpbrk(const char * cs,const char * ct)$/;"	f
+strrchr	lib/string.c	/^char * strrchr(const char * s, int c)$/;"	f
+strsep	lib/string.c	/^char * strsep(char **s, const char *ct)$/;"	f
+strspn	lib/string.c	/^size_t strspn(const char *s, const char *accept)$/;"	f
+strstr	lib/string.c	/^char * strstr(const char * s1,const char * s2)$/;"	f
+strtok	lib/string.c	/^char * strtok(char * s,const char * ct)$/;"	f
+switch_to	include/system.h	180;"	d
+swp_is_buggy	include/system.h	338;"	d
+tas	include/system.h	99;"	d
+task_running	include/system.h	160;"	d
+task_running	include/system.h	170;"	d
+toascii	include/ctype.h	32;"	d
+tolower	include/ctype.h	48;"	d
+toupper	include/ctype.h	49;"	d
+u16	common.h	/^typedef unsigned short u16;$/;"	t
+u16	include/common.h	/^typedef unsigned short u16;$/;"	t
+u32	common.h	/^typedef unsigned int u32;$/;"	t
+u32	include/common.h	/^typedef unsigned int u32;$/;"	t
+u8	common.h	/^typedef unsigned char u8;$/;"	t
+u8	include/common.h	/^typedef unsigned char u8;$/;"	t
+uint	movi.c	/^typedef unsigned int           uint;$/;"	t	file:
+ulong	movi.c	/^typedef unsigned long          ulong;$/;"	t	file:
+umul_ppmm	lib/muldi3.c	34;"	d	file:
+unchar	movi.c	/^typedef unsigned char          unchar;$/;"	t	file:
+unlikely	lib/vsprintf.c	29;"	d	file:
+ushort	movi.c	/^typedef unsigned short         ushort;$/;"	t	file:
+va_arg	lib/vsprintf.h	29;"	d
+va_end	lib/vsprintf.h	30;"	d
+va_list	include/stdio.h	/^typedef char *va_list;$/;"	t
+va_list	lib/vsprintf.h	/^typedef char *va_list;$/;"	t
+va_start	lib/vsprintf.h	31;"	d
+vectors_high	include/system.h	131;"	d
+vectors_high	include/system.h	133;"	d
+vi	common.h	4;"	d
+vi	include/common.h	4;"	d
+vscnprintf	lib/vsprintf.c	/^int vscnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+vsnprintf	lib/vsprintf.c	/^int vsnprintf(char *buf, size_t size, const char *fmt, va_list args)$/;"	f
+vsprintf	lib/vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+vsscanf	lib/vsprintf.c	/^int vsscanf(const char * buf, const char * fmt, va_list args)$/;"	f
+wmb	include/system.h	138;"	d
+word_type	include/gcclib.h	/^typedef          int word_type 	__attribute__ ((mode (__word__)));$/;"	t
+xchg	include/system.h	96;"	d
+xh	lib/div64.S	/^#define xh r0$/;"	d
+xh	lib/div64.S	/^#define xh r1$/;"	d
+xl	lib/div64.S	/^#define xl r0$/;"	d
+xl	lib/div64.S	/^#define xl r1$/;"	d
+yh	lib/div64.S	/^#define yh r2$/;"	d
+yh	lib/div64.S	/^#define yh r3$/;"	d
+yl	lib/div64.S	/^#define yl r2$/;"	d
+yl	lib/div64.S	/^#define yl r3$/;"	d

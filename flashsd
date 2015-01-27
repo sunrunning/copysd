@@ -1,0 +1,10 @@
+#!/bin/bash
+#This file is used to flash SD card for boot device
+#Auther: Li Jun
+# maile: sun4running@126.com
+
+echo "$1 is "  $1
+echo "$2 is "  $2
+sudo dd if=$1 of=$2 bs=512 seek=7625710 count=16
+sudo dd if=$1 of=$2 bs=512 seek=7625166 count=544
+

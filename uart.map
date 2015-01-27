@@ -1,0 +1,263 @@
+Archive member included because of file (symbol)
+
+lib/libc.a(printf.o)          main.o (printf)
+lib/libc.a(string.o)          lib/libc.a(printf.o) (strlen)
+lib/libc.a(vsprintf.o)        lib/libc.a(printf.o) (vsscanf)
+lib/libc.a(div64.o)           lib/libc.a(vsprintf.o) (__do_div64)
+lib/libc.a(ctype.o)           lib/libc.a(string.o) (_ctype)
+
+Allocating common symbols
+Common symbol       size              file
+
+___strtok           0x4               lib/libc.a(string.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x5fe00000                . = 0x5fe00000
+
+.text           0x5fe00000     0x1bc0
+ start.o()
+ .text          0x5fe00000       0x78 start.o
+                0x5fe00000                _start
+ .data          0x5fe00078        0x0 start.o
+ .bss           0x5fe00078        0x0 start.o
+ .ARM.attributes
+                0x5fe00078       0x18 start.o
+ .glue_7        0x5fe00090        0x0 start.o
+ .glue_7t       0x5fe00090        0x0 start.o
+ .vfp11_veneer  0x5fe00090        0x0 start.o
+ .janus_2cc_veneer
+                0x5fe00090        0x0 start.o
+ .v4_bx         0x5fe00090        0x0 start.o
+ *(.text)
+ .text          0x5fe00090       0x44 main.o
+                0x5fe00090                main
+ .text          0x5fe000d4       0xa0 uart.o
+                0x5fe0012c                getc
+                0x5fe000d4                init_uart
+                0x5fe00158                putc
+ .text          0x5fe00174      0x134 sdram_asm.o
+                0x5fe00174                mem_ctrl_asm_init
+ .text          0x5fe002a8       0x5c movi.o
+                0x5fe002a8                movi_bl2_copy
+ .text          0x5fe00304       0x8c clock.o
+                0x5fe00304                clock_init
+ .text          0x5fe00390       0xb4 lib/libc.a(printf.o)
+                0x5fe003ec                printf
+                0x5fe00390                scanf
+ .text          0x5fe00444      0x5cc lib/libc.a(string.o)
+                0x5fe004d4                strcpy
+                0x5fe00944                memscan
+                0x5fe008a0                memmove
+                0x5fe0087c                memcpy
+                0x5fe006cc                strnlen
+                0x5fe00690                strrchr
+                0x5fe00518                strcat
+                0x5fe009e0                memchr
+                0x5fe00978                strstr
+                0x5fe005f0                strncmp
+                0x5fe004f0                strncpy
+                0x5fe00858                bcopy
+                0x5fe0077c                strtok
+                0x5fe00900                memcmp
+                0x5fe0054c                strncat
+                0x5fe00838                memset
+                0x5fe005b4                strcmp
+                0x5fe00800                strsep
+                0x5fe00460                strnicmp
+                0x5fe006f4                strspn
+                0x5fe00670                strlen
+                0x5fe00644                strchr
+                0x5fe0073c                strpbrk
+ .text          0x5fe00a10     0x107c lib/libc.a(vsprintf.o)
+                0x5fe01a70                vscnprintf
+                0x5fe019f4                vsprintf
+                0x5fe00c3c                simple_strtoll
+                0x5fe01a50                snprintf
+                0x5fe00b0c                simple_strtol
+                0x5fe01a24                scnprintf
+                0x5fe00f68                vsscanf
+                0x5fe014f8                vsnprintf
+                0x5fe014d8                sscanf
+                0x5fe01a04                sprintf
+                0x5fe00a2c                simple_strtoul
+                0x5fe00b38                simple_strtoull
+ *fill*         0x5fe01a8c        0x4 00
+ .text          0x5fe01a90      0x130 lib/libc.a(div64.o)
+                0x5fe01a90                __do_div64
+ .text          0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.glue_7         0x5fe01bc0        0x0
+ .glue_7        0x5fe01bc0        0x0 main.o
+ .glue_7        0x5fe01bc0        0x0 uart.o
+ .glue_7        0x5fe01bc0        0x0 sdram_asm.o
+ .glue_7        0x5fe01bc0        0x0 movi.o
+ .glue_7        0x5fe01bc0        0x0 clock.o
+ .glue_7        0x5fe01bc0        0x0 lib/libc.a(printf.o)
+ .glue_7        0x5fe01bc0        0x0 lib/libc.a(string.o)
+ .glue_7        0x5fe01bc0        0x0 lib/libc.a(vsprintf.o)
+ .glue_7        0x5fe01bc0        0x0 lib/libc.a(div64.o)
+ .glue_7        0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.glue_7t        0x5fe01bc0        0x0
+ .glue_7t       0x5fe01bc0        0x0 main.o
+ .glue_7t       0x5fe01bc0        0x0 uart.o
+ .glue_7t       0x5fe01bc0        0x0 sdram_asm.o
+ .glue_7t       0x5fe01bc0        0x0 movi.o
+ .glue_7t       0x5fe01bc0        0x0 clock.o
+ .glue_7t       0x5fe01bc0        0x0 lib/libc.a(printf.o)
+ .glue_7t       0x5fe01bc0        0x0 lib/libc.a(string.o)
+ .glue_7t       0x5fe01bc0        0x0 lib/libc.a(vsprintf.o)
+ .glue_7t       0x5fe01bc0        0x0 lib/libc.a(div64.o)
+ .glue_7t       0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.vfp11_veneer   0x5fe01bc0        0x0
+ .vfp11_veneer  0x5fe01bc0        0x0 main.o
+ .vfp11_veneer  0x5fe01bc0        0x0 uart.o
+ .vfp11_veneer  0x5fe01bc0        0x0 sdram_asm.o
+ .vfp11_veneer  0x5fe01bc0        0x0 movi.o
+ .vfp11_veneer  0x5fe01bc0        0x0 clock.o
+ .vfp11_veneer  0x5fe01bc0        0x0 lib/libc.a(printf.o)
+ .vfp11_veneer  0x5fe01bc0        0x0 lib/libc.a(string.o)
+ .vfp11_veneer  0x5fe01bc0        0x0 lib/libc.a(vsprintf.o)
+ .vfp11_veneer  0x5fe01bc0        0x0 lib/libc.a(div64.o)
+ .vfp11_veneer  0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.janus_2cc_veneer
+                0x5fe01bc0        0x0
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 main.o
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 uart.o
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 sdram_asm.o
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 movi.o
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 clock.o
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 lib/libc.a(printf.o)
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 lib/libc.a(string.o)
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 lib/libc.a(vsprintf.o)
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 lib/libc.a(div64.o)
+ .janus_2cc_veneer
+                0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.v4_bx          0x5fe01bc0        0x0
+ .v4_bx         0x5fe01bc0        0x0 main.o
+ .v4_bx         0x5fe01bc0        0x0 uart.o
+ .v4_bx         0x5fe01bc0        0x0 sdram_asm.o
+ .v4_bx         0x5fe01bc0        0x0 movi.o
+ .v4_bx         0x5fe01bc0        0x0 clock.o
+ .v4_bx         0x5fe01bc0        0x0 lib/libc.a(printf.o)
+ .v4_bx         0x5fe01bc0        0x0 lib/libc.a(string.o)
+ .v4_bx         0x5fe01bc0        0x0 lib/libc.a(vsprintf.o)
+ .v4_bx         0x5fe01bc0        0x0 lib/libc.a(div64.o)
+ .v4_bx         0x5fe01bc0        0x0 lib/libc.a(ctype.o)
+
+.rodata         0x5fe01bc0       0x4a
+ *(.rodata)
+ .rodata        0x5fe01bc0       0x4a lib/libc.a(vsprintf.o)
+
+.rodata.str1.1  0x5fe01c0a       0x16
+ .rodata.str1.1
+                0x5fe01c0a        0xf main.o
+ .rodata.str1.1
+                0x5fe01c19        0x7 lib/libc.a(vsprintf.o)
+
+.data           0x5fe01c20      0x104
+ *(.data)
+ .data          0x5fe01c20        0x0 main.o
+ .data          0x5fe01c20        0x0 uart.o
+ .data          0x5fe01c20        0x0 sdram_asm.o
+ .data          0x5fe01c20        0x0 movi.o
+ .data          0x5fe01c20        0x0 clock.o
+ .data          0x5fe01c20        0x0 lib/libc.a(printf.o)
+ .data          0x5fe01c20        0x0 lib/libc.a(string.o)
+ .data          0x5fe01c20        0x4 lib/libc.a(vsprintf.o)
+ .data          0x5fe01c24        0x0 lib/libc.a(div64.o)
+ .data          0x5fe01c24      0x100 lib/libc.a(ctype.o)
+                0x5fe01c24                _ctype
+                0x5fe01d24                bss_start = .
+
+.bss            0x5fe01d24      0x804
+ *(.bss)
+ .bss           0x5fe01d24        0x0 main.o
+ .bss           0x5fe01d24        0x0 uart.o
+ .bss           0x5fe01d24        0x0 sdram_asm.o
+ .bss           0x5fe01d24        0x0 movi.o
+ .bss           0x5fe01d24        0x0 clock.o
+ .bss           0x5fe01d24      0x800 lib/libc.a(printf.o)
+ .bss           0x5fe02524        0x0 lib/libc.a(string.o)
+ .bss           0x5fe02524        0x0 lib/libc.a(vsprintf.o)
+ .bss           0x5fe02524        0x0 lib/libc.a(div64.o)
+ .bss           0x5fe02524        0x0 lib/libc.a(ctype.o)
+ *(COMMON)
+ COMMON         0x5fe02524        0x4 lib/libc.a(string.o)
+                0x5fe02524                ___strtok
+                0x5fe02528                bss_end = .
+LOAD start.o
+LOAD main.o
+LOAD uart.o
+LOAD sdram_asm.o
+LOAD movi.o
+LOAD clock.o
+LOAD lib/libc.a
+OUTPUT(uart.elf elf32-littlearm)
+
+.comment        0x00000000      0x126
+ .comment       0x00000000       0x2a main.o
+ .comment       0x0000002a       0x2a uart.o
+ .comment       0x00000054       0x2a movi.o
+ .comment       0x0000007e       0x2a lib/libc.a(printf.o)
+ .comment       0x000000a8       0x2a lib/libc.a(string.o)
+ .comment       0x000000d2       0x2a lib/libc.a(vsprintf.o)
+ .comment       0x000000fc       0x2a lib/libc.a(ctype.o)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 main.o
+ .note.GNU-stack
+                0x00000000        0x0 uart.o
+ .note.GNU-stack
+                0x00000000        0x0 movi.o
+ .note.GNU-stack
+                0x00000000        0x0 lib/libc.a(printf.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib/libc.a(string.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib/libc.a(vsprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib/libc.a(ctype.o)
+
+.ARM.attributes
+                0x00000000       0x26
+ .ARM.attributes
+                0x00000000       0x28 main.o
+ .ARM.attributes
+                0x00000028       0x28 uart.o
+ .ARM.attributes
+                0x00000050       0x18 sdram_asm.o
+ .ARM.attributes
+                0x00000068       0x28 movi.o
+ .ARM.attributes
+                0x00000090       0x18 clock.o
+ .ARM.attributes
+                0x000000a8       0x28 lib/libc.a(printf.o)
+ .ARM.attributes
+                0x000000d0       0x28 lib/libc.a(string.o)
+ .ARM.attributes
+                0x000000f8       0x28 lib/libc.a(vsprintf.o)
+ .ARM.attributes
+                0x00000120       0x18 lib/libc.a(div64.o)
+ .ARM.attributes
+                0x00000138       0x26 lib/libc.a(ctype.o)
